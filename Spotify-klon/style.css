@@ -1,0 +1,244 @@
+/*Navbar start*/
+
+.navbar {
+    display: flex;
+    width: 100vw;
+    height: 80px;
+    background: black;
+    justify-content: space-around;
+    position: fixed;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+a:hover {
+    color: #1ED760;
+}
+
+.logo {
+    display: flex;
+    width: 150px;
+    margin-left: 150px;
+}
+
+.logo img {
+    width: 150px;
+    height: 45px;
+    margin: 20px 0 0 0;
+}
+
+.nav-menu {
+    display: flex;
+    margin: 10px;  
+}
+
+
+.nav-menu-item {
+    padding: 20px;
+}
+/*Navbar end*/
+
+
+/*Hero start*/
+.hero {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background: #2D46B9;
+}
+
+.hero-image {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background: url(https://www.scdn.co/i/home/lieVariants/bursts.svg);
+    background-position-x: 40%;
+    zoom: 135%;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-showcase {
+    display: flex;
+    width: 1200px;
+    height: 600px;
+    flex-direction: column;
+}
+
+
+.text-container-1 {
+    display: flex;
+    width: 800px;
+    height: 20%;
+    justify-content: flex-end;
+}
+
+.text-container-2 {
+    display: flex;
+    width: 800px;
+    height: 30%;
+    align-self: flex-end;
+}
+
+.hero h1{
+    color: #1ED760;
+    font-size: 110px;
+    letter-spacing: -0.04em;
+}
+
+.hero-h1-1 {
+    align-self: flex-end;
+}
+
+.spotify-button {
+    display: flex;
+    align-self: center;
+}   
+
+.spotify-button a {
+    padding:10px 30px 10px;
+    border-radius: 30px;
+    background: #1ED760;
+    color: #2D46B9;
+    font-size: 12px;
+}
+.spotify-button a:hover {
+    background: white;
+}
+
+.button-text {
+    display: flex;
+    align-self: center;
+    margin: 0 0 40px 0;
+    font-size: 14px;
+    color: #1ED760;
+}
+
+/*Hero end*/
+
+
+/*Footer start*/
+.container {
+    display: flex;
+    width:100vw;
+    height:400px;
+    background: black;
+    position: relative;
+    justify-content: space-evenly;
+    color: white;
+    align-items: baseline;
+}
+
+.container .logo {
+    margin-left: 300px;
+}
+
+.container p {
+    color: lightgray;
+    font-size: 13px;
+    font-weight: bold;
+
+}
+
+.bottom-list-left {
+    display: flex;
+    padding: 100px 0px;
+    flex-direction: column;
+}
+
+.bottom-list-middle {
+    display: flex;
+    padding: 100px 0px;
+    flex-direction: column;
+}
+
+
+.bottom-list-right {
+    display: flex;
+    padding: 100px 0px;
+    flex-direction: column;
+}
+
+.bottom-menu-item {
+    padding: 10px;
+}
+
+.social-media {
+    display: flex;
+    margin: 0px 0px 100px;
+    width: 300px;
+    align-self: center;
+}
+
+.social-media img{
+    width: 40px;
+    border-radius: 50%;
+}
+
+
+.social-media-item {
+    padding: 5px;
+}
+
+
+.bottom-bar {
+    position: absolute;
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    background: black;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.extra-lista {
+    display: flex;
+    padding: 10px;
+}
+
+.extra-item {
+    padding: 15px;
+    font-size: 12px;
+    
+}
+
+.extra-item a {
+    color: gray;
+}
+.extra-item a:hover {
+    color: #1ED760;
+}
+
+
+.lands-item img {
+    width: 25px;
+}
+
+.lands-item a{
+    font-size: 12px;
+    color: gray;
+}
+
+.lands-item p{
+    font-size: 12px;
+    color: gray;
+}
+
+
+.lands-item a:hover {
+    color: #1ED760;
+}
+
+
+
+
+
+
+/*Footer end*/
